@@ -17,4 +17,14 @@ class NumbersTest {
     boolean number = Numbers.isPositive(0);
     assertFalse(number);
 }
+@Test
+    public void isNegativeOne(){
+    boolean number = Numbers.isPositive(-1);
+    assertFalse(number);
+}
+@Test
+    public void isPositiveOne(){
+    boolean number = Numbers.isPositive(1);
+    assertTrue(number);
+}
 }
