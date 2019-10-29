@@ -20,11 +20,11 @@ public class Numbers {
             return true;
         }
         else {
-            return true;
+            return false;
         }
     }
 
-    private static boolean isEvenGreaterThanZero(int number){
+    public static boolean isEvenGreaterThanZero(int number){
         if ( number > 0 && number%2 == 0) {
             return true;
         }
